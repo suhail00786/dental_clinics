@@ -1,0 +1,1524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>4Smile Dental Clinic | Best Dentist Batla House, New Delhi | Dr. Aman Saifi</title>
+<meta name="description" content="4Smile Dental Clinic – premium dental care in Batla House, New Delhi. Expert dentist Dr. Aman Saifi. Root canal, teeth cleaning, cosmetic dentistry & more. ⭐ 5.0 Rating.">
+<meta name="keywords" content="Dental Clinic Batla House, Best Dentist Batla House, Dentist New Delhi, Root Canal Treatment Delhi, Dr Aman Saifi, 4Smile Dental Clinic">
+<meta property="og:title" content="4Smile Dental Clinic | Dr. Aman Saifi">
+<meta property="og:type" content="website">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Dentist","name":"4Smile Dental Clinic","address":{"@type":"PostalAddress","streetAddress":"R-28 Ground Floor Shop No-2, Jogabai Extension, Batla House","addressLocality":"New Delhi","postalCode":"110025","addressCountry":"IN"},"telephone":"+917303456062","aggregateRating":{"@type":"AggregateRating","ratingValue":"5.0","reviewCount":"27"}}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+/* ── 4Smile Dental Clinic · CSS ─────────────────────────────────────────── */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --primary:#0EA5E9;--pd:#0284C7;--pl:#E0F2FE;
+  --accent:#14B8A6;--al:#CCFBF1;
+  --t:#111827;--tm:#6B7280;--tl:#9CA3AF;
+  --bg:#F8FAFC;--white:#fff;--border:#E5E7EB;
+  --r-sm:8px;--r-md:12px;--r-lg:16px;--r-xl:24px;
+  --sh-sm:0 1px 3px rgba(0,0,0,.08),0 1px 2px rgba(0,0,0,.06);
+  --sh-md:0 4px 16px rgba(0,0,0,.08);
+  --sh-lg:0 10px 40px rgba(0,0,0,.1);
+  --sh-xl:0 20px 60px rgba(14,165,233,.15);
+}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',sans-serif;color:var(--t);background:var(--bg);line-height:1.6;overflow-x:hidden}
+h1,h2,h3,h4{font-family:'Plus Jakarta Sans',sans-serif;line-height:1.2}
+a{text-decoration:none;color:inherit}
+button{cursor:pointer;border:none;font-family:'Inter',sans-serif;outline:none}
+input,select,textarea{font-family:'Inter',sans-serif;outline:none}
+
+/* NAV */
+.nav{position:fixed;top:0;left:0;right:0;z-index:1000;background:rgba(255,255,255,.92);backdrop-filter:blur(16px);border-bottom:1px solid rgba(229,231,235,.6);transition:box-shadow .3s}
+.nav-inner{max-width:1280px;margin:0 auto;padding:0 clamp(16px,4vw,48px);display:flex;align-items:center;justify-content:space-between;height:68px}
+.nav-logo{display:flex;align-items:center;gap:10px;cursor:pointer}
+.nav-logo-icon{width:40px;height:40px;background:linear-gradient(135deg,var(--primary),var(--accent));border-radius:10px;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:14px;font-family:'Plus Jakarta Sans',sans-serif;flex-shrink:0}
+.nav-logo-text{font-family:'Plus Jakarta Sans',sans-serif;font-weight:700;font-size:clamp(15px,2vw,18px)}
+.nav-logo-sub{font-size:11px;color:var(--tm);margin-top:-2px}
+.nav-links{display:flex;align-items:center;gap:clamp(16px,2vw,32px)}
+.nav-links a{font-size:14px;font-weight:500;color:var(--tm);transition:color .2s;white-space:nowrap}
+.nav-links a:hover,.nav-links a.active{color:var(--primary)}
+.nav-cta{background:var(--primary);color:#fff;padding:10px 20px;border-radius:var(--r-md);font-size:14px;font-weight:600;transition:all .2s;white-space:nowrap}
+.nav-cta:hover{background:var(--pd);transform:translateY(-1px);box-shadow:0 4px 14px rgba(14,165,233,.4)}
+.nav-burger{display:none;background:none;border:1px solid var(--border);border-radius:var(--r-sm);padding:8px;flex-direction:column;gap:4px;width:38px;height:38px;align-items:center;justify-content:center}
+.nav-burger span{display:block;width:18px;height:1.5px;background:var(--t);border-radius:2px;transition:all .3s}
+.nav-mobile{display:none;flex-direction:column;background:#fff;border-top:1px solid var(--border);padding:16px clamp(16px,4vw,48px);gap:4px}
+.nav-mobile a,.nav-mobile button{padding:12px 0;font-size:15px;font-weight:500;color:var(--tm);border-bottom:1px solid var(--border);display:block;background:none;text-align:left}
+.nav-mobile a:last-of-type{border-bottom:none}
+
+/* PAGES */
+.page{display:none;padding-top:68px}
+.page.active{display:block}
+
+/* ANIMATIONS */
+.anim{opacity:0;transform:translateY(20px);animation:fadeUp .6s ease forwards;animation-delay:var(--d,0s)}
+@keyframes fadeUp{to{opacity:1;transform:translateY(0)}}
+.float-anim{animation:floatY 6s ease-in-out infinite}
+@keyframes floatY{0%,100%{transform:translateY(0)}50%{transform:translateY(-14px)}}
+
+/* HERO */
+.hero{min-height:calc(100vh - 68px);display:flex;align-items:center;position:relative;overflow:hidden;background:linear-gradient(135deg,#F0F9FF 0%,#ECFDF5 50%,#F8FAFC 100%)}
+.hero-blobs{position:absolute;inset:0;overflow:hidden;pointer-events:none}
+.blob{position:absolute;border-radius:50%;filter:blur(80px);opacity:.35}
+.b1{width:600px;height:600px;background:radial-gradient(circle,var(--pl),transparent);top:-200px;right:-100px}
+.b2{width:400px;height:400px;background:radial-gradient(circle,var(--al),transparent);bottom:-100px;left:-100px}
+.b3{width:300px;height:300px;background:radial-gradient(circle,#FEF3C7,transparent);top:50%;left:40%}
+.hero-inner{max-width:1280px;margin:0 auto;padding:clamp(40px,6vw,80px) clamp(16px,4vw,48px);display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;position:relative;z-index:1;width:100%}
+.hero-pill{display:inline-flex;align-items:center;gap:8px;background:rgba(14,165,233,.1);border:1px solid rgba(14,165,233,.2);border-radius:100px;padding:6px 16px;font-size:13px;font-weight:600;color:var(--primary);margin-bottom:24px}
+.pulse-dot{width:8px;height:8px;background:var(--accent);border-radius:50%;animation:pulse 2s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(.8)}}
+.hero-content h1{font-size:clamp(36px,5vw,64px);font-weight:800;letter-spacing:-1.5px;margin-bottom:20px}
+.grad-text{background:linear-gradient(135deg,var(--primary),var(--accent));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.hero-sub{font-size:clamp(15px,1.8vw,18px);color:var(--tm);line-height:1.7;margin-bottom:32px;max-width:480px}
+.hero-btns{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:36px}
+.trust-row{display:flex;flex-wrap:wrap;gap:10px}
+.trust-chip{display:flex;align-items:center;gap:6px;background:#fff;border:1px solid var(--border);border-radius:100px;padding:7px 14px;font-size:13px;font-weight:500;box-shadow:var(--sh-sm)}
+.hero-card{background:#fff;border-radius:var(--r-xl);padding:32px;box-shadow:var(--sh-xl);border:1px solid rgba(14,165,233,.1);position:relative}
+.hero-tooth{width:100px;height:100px;margin:0 auto 20px;background:linear-gradient(135deg,var(--pl),var(--al));border-radius:var(--r-xl);display:flex;align-items:center;justify-content:center}
+.hcard-title{text-align:center;font-family:'Plus Jakarta Sans',sans-serif;font-weight:700;font-size:18px;margin-bottom:4px}
+.hcard-sub{text-align:center;font-size:13px;color:var(--tm);margin-bottom:20px}
+.hcard-stats{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.hstat{background:var(--bg);border-radius:var(--r-md);padding:14px;text-align:center}
+.hstat-n{font-family:'Plus Jakarta Sans',sans-serif;font-weight:800;font-size:22px;color:var(--primary)}
+.hstat-l{font-size:11px;color:var(--tm);font-weight:500;margin-top:2px}
+.float-chip{position:absolute;background:#fff;border-radius:100px;padding:10px 16px;box-shadow:var(--sh-md);font-size:13px;font-weight:600;border:1px solid var(--border);white-space:nowrap}
+.fc1{top:-20px;right:-20px;animation:fc1a 5s ease-in-out infinite}
+.fc2{bottom:-20px;left:-20px;animation:fc2a 6s ease-in-out infinite}
+@keyframes fc1a{0%,100%{transform:rotate(-2deg) translateY(0)}50%{transform:rotate(2deg) translateY(-8px)}}
+@keyframes fc2a{0%,100%{transform:rotate(2deg) translateY(0)}50%{transform:rotate(-2deg) translateY(8px)}}
+.hero-visual{position:relative}
+
+/* BUTTONS */
+.btn-primary{background:linear-gradient(135deg,var(--primary),var(--pd));color:#fff;padding:13px 26px;border-radius:var(--r-md);font-size:15px;font-weight:600;transition:all .25s;display:inline-flex;align-items:center;gap:8px;box-shadow:0 4px 20px rgba(14,165,233,.3)}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 8px 28px rgba(14,165,233,.45)}
+.btn-outline{background:#fff;color:var(--t);padding:13px 26px;border-radius:var(--r-md);font-size:15px;font-weight:600;transition:all .25s;display:inline-flex;align-items:center;gap:8px;border:1.5px solid var(--border);box-shadow:var(--sh-sm)}
+.btn-outline:hover{border-color:var(--primary);color:var(--primary);transform:translateY(-2px)}
+.btn-lg{font-size:16px;padding:16px 36px}
+.btn-white{background:#fff;color:var(--primary);padding:14px 32px;border-radius:var(--r-md);font-size:15px;font-weight:700;display:inline-flex;align-items:center;gap:8px;transition:all .25s}
+.btn-white:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.2)}
+.w-full{width:100%}
+.mt-8{margin-top:8px}
+
+/* SECTIONS */
+.section{padding:clamp(60px,8vw,100px) clamp(16px,4vw,48px)}
+.container{max-width:1280px;margin:0 auto}
+.bg-white{background:#fff}
+.bg-light{background:var(--bg)}
+.bg-grad{background:linear-gradient(135deg,#F0F9FF,#ECFDF5)}
+.sec-label{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:var(--primary);margin-bottom:12px}
+.sec-label::before{content:'';width:20px;height:2px;background:var(--primary);border-radius:2px}
+.sec-title{font-size:clamp(28px,4vw,44px);font-weight:800;letter-spacing:-.5px;margin-bottom:16px}
+.sec-body{font-size:16px;color:var(--tm);line-height:1.8}
+.sec-sub{font-size:clamp(15px,1.6vw,17px);color:var(--tm);line-height:1.7}
+.sec-header{margin-bottom:clamp(40px,5vw,60px)}
+.sec-header.center,.center{text-align:center}
+.center .sec-sub,.center .sec-label{margin-left:auto;margin-right:auto}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:clamp(40px,5vw,80px);align-items:center}
+
+/* ABOUT */
+.feat-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:28px}
+.feat-item{display:flex;align-items:center;gap:10px;background:var(--bg);border-radius:var(--r-md);padding:12px 14px;font-size:14px;font-weight:500;transition:all .2s}
+.feat-item:hover{background:var(--pl);color:var(--pd)}
+.feat-icon{width:24px;height:24px;background:linear-gradient(135deg,var(--primary),var(--accent));border-radius:6px;display:flex;align-items:center;justify-content:center;color:#fff;font-size:12px;font-weight:700;flex-shrink:0}
+.about-vis-wrap{position:relative}
+.about-vis-card{background:linear-gradient(135deg,var(--primary),var(--accent));border-radius:var(--r-xl);padding:40px;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:340px;color:#fff;text-align:center}
+.about-vis-card h3{font-size:clamp(20px,2.5vw,26px);font-weight:800;margin-bottom:6px}
+.about-vis-card p{font-size:15px;opacity:.9;margin-bottom:20px}
+.rating-pill{background:rgba(255,255,255,.2);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.3);border-radius:100px;padding:8px 18px;display:inline-flex;align-items:center;gap:8px;font-weight:600;font-size:14px}
+.stars-gold{color:#FCD34D;letter-spacing:2px}
+.about-badge{position:absolute;background:#fff;border-radius:100px;padding:8px 16px;box-shadow:var(--sh-md);font-size:12px;font-weight:700;color:var(--t);border:1px solid var(--border)}
+.ab1{top:-10px;right:-10px;animation:fc1a 5s ease-in-out infinite}
+.ab2{bottom:-10px;left:-10px;animation:fc2a 6s ease-in-out infinite}
+
+/* SERVICES */
+.svc-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:18px}
+.svc-card{background:#fff;border-radius:var(--r-lg);padding:26px;border:1px solid var(--border);transition:all .3s;cursor:pointer}
+.svc-card:hover{transform:translateY(-4px);box-shadow:var(--sh-lg);border-color:var(--primary)}
+.svc-ico{width:50px;height:50px;border-radius:var(--r-md);display:flex;align-items:center;justify-content:center;margin-bottom:14px;font-size:22px}
+.svc-name{font-family:'Plus Jakarta Sans',sans-serif;font-weight:700;font-size:16px;margin-bottom:8px}
+.svc-desc{font-size:13px;color:var(--tm);line-height:1.6}
+.svc-link{display:inline-flex;align-items:center;gap:4px;font-size:12px;font-weight:600;color:var(--primary);margin-top:12px;transition:gap .2s}
+.svc-card:hover .svc-link{gap:8px}
+.mt-40{margin-top:40px}
+
+/* WHY */
+.why-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:18px}
+.why-card{background:var(--bg);border-radius:var(--r-lg);padding:24px;border:1px solid transparent;transition:all .3s;display:flex;gap:16px;align-items:flex-start}
+.why-card:hover{background:#fff;border-color:var(--border);box-shadow:var(--sh-md);transform:translateY(-2px)}
+.why-ico{width:46px;height:46px;border-radius:var(--r-md);background:linear-gradient(135deg,var(--pl),var(--al));display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:20px}
+.why-ttl{font-weight:700;font-size:15px;margin-bottom:6px}
+.why-dsc{font-size:13px;color:var(--tm);line-height:1.6}
+
+/* DOCTOR */
+.dr-wrap{display:flex;justify-content:center}
+.dr-card{width:100%;max-width:300px;aspect-ratio:3/4;background:linear-gradient(135deg,var(--primary),var(--accent));border-radius:var(--r-xl);display:flex;flex-direction:column;align-items:center;justify-content:center;color:#fff;box-shadow:var(--sh-xl);position:relative;overflow:hidden;text-align:center;padding:24px}
+.dr-emoji{font-size:72px;line-height:1;margin-bottom:12px}
+.dr-name{font-family:'Plus Jakarta Sans',sans-serif;font-weight:800;font-size:20px;margin-bottom:4px}
+.dr-deg{font-size:13px;opacity:.85;margin-bottom:16px}
+.dr-badge-inner{background:rgba(255,255,255,.2);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.3);border-radius:100px;padding:8px 18px;font-weight:600;font-size:14px}
+.dr-hls{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:24px}
+.dr-hl{background:#fff;border-radius:var(--r-md);padding:14px 16px;box-shadow:var(--sh-sm);display:flex;align-items:center;gap:10px;border:1px solid var(--border);font-size:14px;font-weight:500}
+.dr-dot{width:8px;height:8px;border-radius:50%;background:linear-gradient(135deg,var(--primary),var(--accent));flex-shrink:0}
+
+/* REVIEWS */
+.reviews-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:18px}
+.rev-card{background:#fff;border-radius:var(--r-lg);padding:26px;border:1px solid var(--border);box-shadow:var(--sh-sm);transition:all .3s}
+.rev-card:hover{box-shadow:var(--sh-md);transform:translateY(-2px)}
+.rev-stars{color:#F59E0B;font-size:16px;letter-spacing:2px;margin-bottom:10px}
+.rev-text{font-size:14px;color:var(--tm);line-height:1.7;margin-bottom:18px;font-style:italic}
+.rev-author{display:flex;align-items:center;gap:10px}
+.rev-avatar{width:40px;height:40px;border-radius:50%;background:linear-gradient(135deg,var(--primary),var(--accent));display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:15px;flex-shrink:0}
+.rev-name{font-weight:600;font-size:14px}
+.rev-label{font-size:12px;color:var(--tm)}
+.loading-msg{color:var(--tm);font-size:14px;padding:20px;text-align:center}
+
+/* GOOGLE BAR */
+.google-bar{background:linear-gradient(135deg,var(--primary),var(--accent));padding:clamp(40px,6vw,80px) clamp(16px,4vw,48px);color:#fff;text-align:center}
+.g-eyebrow{font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:2px;opacity:.8;margin-bottom:12px}
+.g-num{font-size:clamp(56px,10vw,96px);font-weight:800;line-height:1;font-family:'Plus Jakarta Sans',sans-serif}
+.g-stars{font-size:clamp(28px,4vw,40px);color:#FCD34D;letter-spacing:4px;margin:8px 0}
+.g-sub{font-size:17px;opacity:.9;margin-bottom:28px}
+
+/* CTA */
+.mini-cta{background:linear-gradient(135deg,var(--primary),var(--accent));padding:clamp(60px,8vw,100px) clamp(16px,4vw,48px);text-align:center;color:#fff}
+.mini-cta h2{font-size:clamp(28px,4vw,44px);font-weight:800;letter-spacing:-.5px;margin-bottom:12px}
+.mini-cta p{font-size:17px;opacity:.9;margin-bottom:28px}
+
+/* SERVICES DETAIL */
+.svc-detail-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.svc-det-card{background:#fff;border-radius:var(--r-xl);padding:clamp(20px,3vw,36px);border:1px solid var(--border);box-shadow:var(--sh-sm);transition:all .3s;display:flex;gap:20px;align-items:flex-start}
+.svc-det-card:hover{box-shadow:var(--sh-lg);border-color:var(--primary);transform:translateY(-2px)}
+.svc-det-ico{width:60px;height:60px;border-radius:var(--r-lg);display:flex;align-items:center;justify-content:center;font-size:26px;flex-shrink:0}
+.svc-det-ttl{font-family:'Plus Jakarta Sans',sans-serif;font-weight:700;font-size:18px;margin-bottom:8px}
+.svc-det-dsc{font-size:14px;color:var(--tm);line-height:1.7}
+.svc-pts{list-style:none;margin-top:10px;display:flex;flex-direction:column;gap:5px}
+.svc-pts li{font-size:13px;color:var(--tm);display:flex;align-items:center;gap:8px}
+.svc-pts li::before{content:'✓';color:var(--accent);font-weight:700;font-size:12px}
+
+/* PROCESS */
+.proc-step{display:flex;gap:20px;align-items:flex-start;padding:20px 0;position:relative}
+.proc-step:not(:last-child)::before{content:'';position:absolute;left:22px;top:56px;bottom:0;width:2px;background:linear-gradient(to bottom,var(--primary),var(--accent));opacity:.2}
+.proc-num{width:44px;height:44px;border-radius:50%;background:linear-gradient(135deg,var(--primary),var(--accent));color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:16px;flex-shrink:0;box-shadow:0 4px 12px rgba(14,165,233,.3);z-index:1}
+.proc-step h3{font-family:'Plus Jakarta Sans',sans-serif;font-weight:700;font-size:17px;margin-bottom:5px;padding-top:10px}
+.proc-step p{font-size:14px;color:var(--tm);line-height:1.6}
+
+/* FAQ */
+.faq-list{max-width:800px;margin:0 auto;display:flex;flex-direction:column;gap:10px}
+.faq-item{background:#fff;border-radius:var(--r-lg);border:1px solid var(--border);overflow:hidden;transition:all .2s}
+.faq-item.open{border-color:var(--primary)}
+.faq-q{padding:18px 22px;font-weight:600;font-size:15px;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px;user-select:none;transition:color .2s}
+.faq-q:hover{color:var(--primary)}
+.faq-arr{width:20px;height:20px;border-radius:50%;background:var(--bg);display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:transform .25s;font-size:11px;color:var(--tm)}
+.faq-item.open .faq-arr{transform:rotate(180deg);background:var(--pl);color:var(--primary)}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .3s ease}
+.faq-a-inner{padding:0 22px 18px;font-size:14px;color:var(--tm);line-height:1.7}
+.faq-item.open .faq-a{max-height:300px}
+
+/* APPOINTMENT FORM */
+.appt-layout{display:grid;grid-template-columns:1fr 360px;gap:28px;align-items:start}
+.form-card{background:#fff;border-radius:var(--r-xl);padding:clamp(24px,3vw,40px);box-shadow:var(--sh-md);border:1px solid var(--border)}
+.form-title{font-family:'Plus Jakarta Sans',sans-serif;font-weight:800;font-size:22px;margin-bottom:6px}
+.form-sub{font-size:14px;color:var(--tm);margin-bottom:24px}
+.req{color:#EF4444}
+.steps-bar{display:flex;align-items:center;margin-bottom:28px}
+.si{display:flex;align-items:center;gap:8px;flex-shrink:0}
+.sc{width:28px;height:28px;border-radius:50%;background:var(--border);display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;color:var(--tm);transition:all .3s}
+.sl{font-size:12px;font-weight:600;color:var(--tm);transition:color .3s;white-space:nowrap}
+.si.active .sc{background:var(--primary);color:#fff}
+.si.active .sl{color:var(--primary)}
+.si.done .sc{background:var(--accent);color:#fff}
+.si.done .sl{color:var(--accent)}
+.scon{flex:1;height:2px;background:var(--border);margin:0 8px;border-radius:2px}
+.step-ttl{font-family:'Plus Jakarta Sans',sans-serif;font-weight:700;font-size:17px;margin-bottom:18px;padding-bottom:12px;border-bottom:1px solid var(--border)}
+.fs{display:none}
+.fs.active{display:block}
+.fr1{margin-bottom:14px}
+.fr2{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px}
+.fr3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px;margin-bottom:14px}
+.fg{display:flex;flex-direction:column;gap:5px}
+.fg label{font-size:13px;font-weight:600;color:var(--t)}
+.fi{border:1.5px solid var(--border);border-radius:var(--r-sm);padding:10px 13px;font-size:14px;color:var(--t);transition:all .2s;width:100%}
+.fi:focus{border-color:var(--primary);box-shadow:0 0 0 3px rgba(14,165,233,.1)}
+.fi::placeholder{color:var(--tl)}
+select.fi{-webkit-appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%236B7280' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 12px center;padding-right:34px;background-color:#fff}
+.ta{resize:vertical;min-height:80px}
+.fi.err{border-color:#EF4444}
+.field-err{color:#EF4444;font-size:12px;margin-top:4px}
+.api-err{background:#FEF2F2;color:#DC2626;border:1px solid #FECACA;border-radius:var(--r-sm);padding:10px 14px;font-size:13px;margin-bottom:16px}
+.form-nav{display:flex;justify-content:space-between;align-items:center;margin-top:20px;gap:12px}
+.btn-prev{background:var(--bg);color:var(--tm);padding:11px 22px;border-radius:var(--r-md);font-size:14px;font-weight:600;border:1.5px solid var(--border);transition:all .2s}
+.btn-prev:hover{border-color:var(--tm);color:var(--t)}
+.btn-next{background:linear-gradient(135deg,var(--primary),var(--pd));color:#fff;padding:11px 26px;border-radius:var(--r-md);font-size:14px;font-weight:600;transition:all .25s}
+.btn-next:hover{transform:translateY(-1px);box-shadow:0 4px 14px rgba(14,165,233,.4)}
+.consent-box{display:flex;align-items:flex-start;gap:10px;padding:14px;background:var(--bg);border-radius:var(--r-md);border:1.5px solid var(--border);margin-bottom:8px}
+.consent-box input[type=checkbox]{width:16px;height:16px;flex-shrink:0;margin-top:2px;accent-color:var(--primary)}
+.consent-box label{font-size:13px;color:var(--tm);line-height:1.5}
+.btn-submit{background:linear-gradient(135deg,var(--primary),var(--accent));color:#fff;padding:15px;border-radius:var(--r-md);font-size:15px;font-weight:700;width:100%;margin-top:14px;transition:all .25s;display:flex;align-items:center;justify-content:center;gap:10px}
+.btn-submit:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(14,165,233,.4)}
+.btn-submit:disabled{opacity:.7;transform:none;pointer-events:none}
+.spinner{width:18px;height:18px;border:2.5px solid rgba(255,255,255,.4);border-top-color:#fff;border-radius:50%;animation:spin .8s linear infinite;flex-shrink:0}
+@keyframes spin{to{transform:rotate(360deg)}}
+.summary-box{background:var(--bg);border-radius:var(--r-md);padding:18px;margin-bottom:16px;font-size:14px}
+.sum-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.sum-key{font-size:11px;font-weight:700;color:var(--tm);text-transform:uppercase;letter-spacing:.5px;margin-bottom:2px}
+.sum-val{font-weight:600;color:var(--t);font-size:14px}
+.success-state{text-align:center;padding:32px 16px}
+.succ-icon{width:72px;height:72px;border-radius:50%;background:linear-gradient(135deg,var(--primary),var(--accent));display:flex;align-items:center;justify-content:center;font-size:32px;color:#fff;margin:0 auto 20px;animation:pop .5s ease}
+@keyframes pop{0%{transform:scale(0)}80%{transform:scale(1.1)}100%{transform:scale(1)}}
+.success-state h3{font-family:'Plus Jakarta Sans',sans-serif;font-weight:800;font-size:22px;margin-bottom:8px}
+.success-state p{font-size:15px;color:var(--tm);margin-bottom:16px}
+.succ-info{background:var(--bg);border-radius:var(--r-md);padding:14px 18px;font-size:14px;color:var(--tm);text-align:left;margin-bottom:20px}
+.succ-info a{color:var(--primary);font-weight:600}
+
+/* SIDEBAR */
+.appt-side{display:flex;flex-direction:column;gap:16px}
+.side-card{background:#fff;border-radius:var(--r-lg);padding:22px;box-shadow:var(--sh-sm);border:1px solid var(--border)}
+.side-ttl{font-family:'Plus Jakarta Sans',sans-serif;font-weight:700;font-size:15px;margin-bottom:14px}
+.side-item{display:flex;gap:12px;align-items:flex-start;margin-bottom:12px}
+.side-item:last-child{margin-bottom:0}
+.side-ico{width:34px;height:34px;border-radius:var(--r-sm);background:var(--pl);display:flex;align-items:center;justify-content:center;font-size:15px;flex-shrink:0}
+.side-lbl{font-size:11px;color:var(--tm);font-weight:600;text-transform:uppercase;letter-spacing:.5px;margin-bottom:2px}
+.side-val{font-size:13px;font-weight:500}
+.act-grid{display:flex;flex-direction:column;gap:8px}
+.act-btn{display:flex;align-items:center;justify-content:center;gap:8px;padding:12px;border-radius:var(--r-md);font-size:14px;font-weight:600;transition:all .2s;text-align:center}
+.act-primary{background:var(--primary);color:#fff}
+.act-primary:hover{background:var(--pd)}
+.act-green{background:#25D366;color:#fff}
+.act-green:hover{background:#1DAA55}
+.act-outline{background:#fff;color:var(--t);border:1.5px solid var(--border)}
+.act-outline:hover{border-color:var(--primary);color:var(--primary)}
+.hrs{display:flex;flex-direction:column;gap:8px}
+.hr-row{display:flex;justify-content:space-between;align-items:center;font-size:14px;color:var(--tm)}
+.hr-row strong{color:var(--t);font-weight:600}
+
+/* ADMIN LOGIN */
+.adm-login-wrap{min-height:calc(100vh - 68px);display:flex;align-items:center;justify-content:center;padding:24px}
+.adm-login-card{background:#fff;border-radius:var(--r-xl);padding:40px;box-shadow:var(--sh-lg);max-width:400px;width:100%;border:1px solid var(--border)}
+.adm-logo{width:60px;height:60px;background:linear-gradient(135deg,var(--primary),var(--accent));border-radius:var(--r-lg);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:20px;font-family:'Plus Jakarta Sans',sans-serif;margin:0 auto 20px}
+.adm-title{text-align:center;font-family:'Plus Jakarta Sans',sans-serif;font-weight:800;font-size:22px;margin-bottom:6px}
+.adm-sub{text-align:center;font-size:14px;color:var(--tm);margin-bottom:24px}
+.hint-txt{text-align:center;margin-top:16px;font-size:13px;color:var(--tl)}
+.btn-back{display:block;width:100%;margin-top:12px;background:none;border:1.5px solid var(--border);border-radius:var(--r-sm);padding:10px;font-size:13px;color:var(--tm);transition:all .2s}
+.btn-back:hover{border-color:var(--tm)}
+
+/* ADMIN DASHBOARD */
+.dash-nav{background:#fff;border-bottom:1px solid var(--border);padding:0 24px;display:flex;align-items:center;justify-content:space-between;height:60px;position:sticky;top:68px;z-index:100}
+.dash-logo-wrap{font-family:'Plus Jakarta Sans',sans-serif;font-weight:700;font-size:16px;display:flex;align-items:center;gap:8px}
+.dash-logo-ico{width:30px;height:30px;background:linear-gradient(135deg,var(--primary),var(--accent));border-radius:8px;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:11px}
+.btn-logout{background:none;border:1.5px solid var(--border);border-radius:var(--r-sm);padding:7px 14px;font-size:13px;font-weight:600;color:var(--tm);cursor:pointer;transition:all .2s}
+.btn-logout:hover{border-color:#EF4444;color:#EF4444}
+.dash-tabs{background:#fff;border-bottom:1px solid var(--border);padding:0 24px;display:flex;gap:4px;overflow-x:auto}
+.dtab{padding:14px 18px;font-size:14px;font-weight:600;color:var(--tm);background:none;border:none;border-bottom:2px solid transparent;cursor:pointer;transition:all .2s;white-space:nowrap}
+.dtab:hover{color:var(--primary)}
+.dtab.active{color:var(--primary);border-bottom-color:var(--primary)}
+.dtab-content{display:none}
+.dtab-content.active{display:block}
+.dash-body{max-width:1200px;margin:0 auto;padding:28px 24px}
+.stats-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:14px}
+.stat-card{background:#fff;border-radius:var(--r-lg);padding:20px;border:1px solid var(--border);box-shadow:var(--sh-sm)}
+.stat-n{font-family:'Plus Jakarta Sans',sans-serif;font-size:30px;font-weight:800;color:var(--primary);line-height:1}
+.stat-l{font-size:13px;color:var(--tm);margin-top:4px}
+.dash-sec-ttl{font-family:'Plus Jakarta Sans',sans-serif;font-weight:700;font-size:17px;margin-bottom:14px}
+.dash-toolbar{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:16px;align-items:center}
+.dash-search{border:1.5px solid var(--border);border-radius:var(--r-md);padding:9px 14px;font-size:14px;width:240px;transition:all .2s}
+.dash-search:focus{border-color:var(--primary);box-shadow:0 0 0 3px rgba(14,165,233,.1)}
+.dash-filter{border:1.5px solid var(--border);border-radius:var(--r-md);padding:9px 12px;font-size:14px;background:#fff;cursor:pointer}
+.export-btn{background:linear-gradient(135deg,var(--accent),var(--primary));color:#fff;padding:9px 18px;border-radius:var(--r-md);font-size:13px;font-weight:600;border:none;cursor:pointer;transition:all .2s;margin-left:auto}
+.export-btn:hover{transform:translateY(-1px);box-shadow:0 4px 12px rgba(14,165,233,.3)}
+.table-wrap{background:#fff;border-radius:var(--r-lg);border:1px solid var(--border);overflow-x:auto;box-shadow:var(--sh-sm)}
+.dtable{width:100%;border-collapse:collapse;font-size:13px;min-width:600px}
+.dtable th{background:var(--bg);padding:11px 14px;text-align:left;font-weight:600;color:var(--tm);font-size:11px;text-transform:uppercase;letter-spacing:.5px;border-bottom:1px solid var(--border)}
+.dtable td{padding:13px 14px;border-bottom:1px solid rgba(229,231,235,.5);color:var(--t);vertical-align:middle}
+.dtable tr:last-child td{border-bottom:none}
+.dtable tr:hover td{background:var(--bg)}
+.empty-cell{text-align:center;color:var(--tm);padding:32px}
+.status-badge{padding:4px 10px;border-radius:100px;font-size:11px;font-weight:700}
+.sb-pending{background:#FEF3C7;color:#92400E}
+.sb-confirmed{background:#D1FAE5;color:#065F46}
+.sb-completed{background:#DBEAFE;color:#1E40AF}
+.sb-cancelled{background:#FEE2E2;color:#991B1B}
+.status-sel{border:1.5px solid var(--border);border-radius:var(--r-sm);padding:4px 8px;font-size:12px;font-weight:600;cursor:pointer;background:#fff;color:var(--t)}
+.act-del{background:none;border:none;cursor:pointer;color:#EF4444;font-size:12px;font-weight:600;padding:4px 8px;border-radius:var(--r-sm);transition:all .2s}
+.act-del:hover{background:#FEE2E2}
+.pagination{display:flex;gap:8px;justify-content:center;margin-top:20px;flex-wrap:wrap}
+.pg-btn{padding:8px 14px;border-radius:var(--r-sm);font-size:13px;font-weight:600;border:1.5px solid var(--border);background:#fff;cursor:pointer;transition:all .2s}
+.pg-btn:hover,.pg-btn.active{border-color:var(--primary);color:var(--primary);background:var(--pl)}
+
+/* FOOTER */
+.footer{background:var(--t);color:#fff;padding:clamp(48px,6vw,80px) clamp(16px,4vw,48px) 24px}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:clamp(24px,4vw,48px);margin-bottom:40px}
+.f-icon{width:42px;height:42px;background:linear-gradient(135deg,var(--primary),var(--accent));border-radius:10px;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:14px;font-family:'Plus Jakarta Sans',sans-serif;margin-bottom:12px}
+.f-name{font-family:'Plus Jakarta Sans',sans-serif;font-weight:700;font-size:18px;margin-bottom:8px}
+.f-desc{font-size:14px;color:rgba(255,255,255,.55);line-height:1.7;margin-bottom:16px}
+.f-rating{font-size:13px;color:rgba(255,255,255,.55);display:flex;align-items:center;gap:8px}
+.f-stars{color:#F59E0B;letter-spacing:2px}
+.f-ttl{font-weight:700;font-size:13px;color:rgba(255,255,255,.85);margin-bottom:14px;text-transform:uppercase;letter-spacing:1px}
+.f-links{display:flex;flex-direction:column;gap:10px}
+.f-links a,.f-links span{font-size:13px;color:rgba(255,255,255,.55);cursor:pointer;transition:color .2s}
+.f-links a:hover{color:#fff}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.1);padding-top:22px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+.footer-bottom p{font-size:12px;color:rgba(255,255,255,.4)}
+.footer-bottom.center{justify-content:center}
+
+/* PAGE HERO */
+.page-hero{background:linear-gradient(135deg,var(--primary),var(--accent));padding:clamp(60px,8vw,100px) clamp(16px,4vw,48px);text-align:center;color:#fff}
+.page-hero h1{font-size:clamp(30px,5vw,52px);font-weight:800;letter-spacing:-1px;margin-bottom:14px}
+.page-hero p{font-size:clamp(15px,2vw,18px);opacity:.9}
+
+/* COLOR ICONS */
+.bg-blue{background:#EFF6FF}.bg-orange{background:#FFF7ED}.bg-red{background:#FFF1F2}
+.bg-green{background:#F0FDF4}.bg-sky{background:#F0F9FF}.bg-teal{background:#ECFDF5}
+.bg-purple{background:#FDF4FF}.bg-amber{background:#FFFBEB}
+
+/* TOAST */
+.toast{position:fixed;bottom:28px;left:50%;transform:translateX(-50%) translateY(100px);background:var(--t);color:#fff;padding:12px 24px;border-radius:100px;font-size:14px;font-weight:600;box-shadow:var(--sh-lg);z-index:9999;transition:transform .3s ease;white-space:nowrap}
+.toast.show{transform:translateX(-50%) translateY(0)}
+.toast.success{background:var(--accent)}
+.toast.error{background:#EF4444}
+
+/* RESPONSIVE */
+@media(max-width:1024px){
+  .hero-inner{grid-template-columns:1fr;gap:40px;text-align:center;justify-items:center}
+  .hero-sub{margin:0 auto 32px}
+  .hero-btns{justify-content:center}
+  .trust-row{justify-content:center}
+  .hero-visual{width:100%;max-width:480px}
+  .two-col{grid-template-columns:1fr}
+  .about-vis-wrap{order:-1}
+  .dr-wrap{order:-1}
+  .appt-layout{grid-template-columns:1fr}
+  .appt-side{order:-1}
+  .footer-grid{grid-template-columns:1fr 1fr}
+  .svc-detail-grid{grid-template-columns:1fr}
+}
+@media(max-width:768px){
+  .nav-links,.nav-cta{display:none}
+  .nav-burger{display:flex}
+  .nav-mobile.open{display:flex}
+  .fc1,.fc2{display:none}
+  .feat-grid{grid-template-columns:1fr}
+  .dr-hls{grid-template-columns:1fr}
+  .fr2,.fr3{grid-template-columns:1fr}
+  .footer-grid{grid-template-columns:1fr}
+  .two-col{gap:32px}
+  .svc-grid{grid-template-columns:1fr 1fr}
+  .reviews-grid{grid-template-columns:1fr}
+  .why-grid{grid-template-columns:1fr}
+  .sum-grid{grid-template-columns:1fr}
+}
+@media(max-width:480px){
+  .svc-grid{grid-template-columns:1fr}
+  .hero-card{padding:24px}
+  .svc-det-card{flex-direction:column}
+}
+
+</style>
+</head>
+<body>
+
+<nav class="nav" id="mainNav">
+  <div class="nav-inner">
+    <a class="nav-logo" href="#" onclick="showPage('home');return false">
+      <div class="nav-logo-icon">4S</div>
+      <div><div class="nav-logo-text">4Smile Dental</div><div class="nav-logo-sub">Your Smile, Our Priority</div></div>
+    </a>
+    <div class="nav-links">
+      <a href="#" class="active" id="nl-home" onclick="showPage('home');return false">Home</a>
+      <a href="#" id="nl-services" onclick="showPage('services');return false">Services</a>
+      <a href="#" id="nl-appt" onclick="showPage('appointment');return false">Appointment</a>
+      <a href="tel:+917303456062">📞 +91 73034 56062</a>
+      <a href="#" onclick="showPage('admin');return false" style="font-size:12px;color:var(--text-light)">Admin</a>
+    </div>
+    <button class="nav-cta" onclick="showPage('appointment')">Book Appointment</button>
+    <button class="nav-burger" id="navBurger" onclick="toggleMenu()" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="nav-mobile" id="mobileMenu">
+    <a href="#" onclick="showPage('home');closeMenu();return false">Home</a>
+    <a href="#" onclick="showPage('services');closeMenu();return false">Services</a>
+    <a href="#" onclick="showPage('appointment');closeMenu();return false">Appointment & Contact</a>
+    <a href="tel:+917303456062">📞 +91 73034 56062</a>
+    <a href="https://wa.me/917303456062" target="_blank">💬 WhatsApp</a>
+    <a href="#" onclick="showPage('admin');closeMenu();return false" style="color:var(--text-muted)">🔐 Admin Panel</a>
+    <button class="btn-primary w-full mt-8" onclick="showPage('appointment');closeMenu()">Book Appointment</button>
+  </div>
+</nav>
+
+<!-- ══ HOME ══════════════════════════════════════════════════════════════════ -->
+<div id="pg-home" class="page active">
+  <section class="hero">
+    <div class="hero-blobs"><div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div></div>
+    <div class="hero-inner">
+      <div class="hero-content">
+        <div class="hero-pill anim" style="--d:.1s"><span class="pulse-dot"></span>Batla House's Most Trusted Dental Clinic</div>
+        <h1 class="anim" style="--d:.2s">Smile With<br><span class="grad-text">Confidence</span></h1>
+        <p class="hero-sub anim" style="--d:.3s">Advanced dental care, personalized treatment, and affordable solutions for healthy, beautiful smiles in New Delhi.</p>
+        <div class="hero-btns anim" style="--d:.4s">
+          <button class="btn-primary" onclick="showPage('appointment')">
+            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+            Book Appointment
+          </button>
+          <a class="btn-outline" href="tel:+917303456062">
+            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.5a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .82h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+            Call Now
+          </a>
+        </div>
+        <div class="trust-row anim" style="--d:.5s">
+          <div class="trust-chip">⭐ 5.0 Rating</div>
+          <div class="trust-chip">👥 27+ Reviews</div>
+          <div class="trust-chip">🦷 Expert Dentist</div>
+          <div class="trust-chip">💰 Affordable</div>
+        </div>
+      </div>
+      <div class="hero-visual anim" style="--d:.35s">
+        <div class="hero-card float-anim">
+          <div class="hero-tooth">
+            <svg width="72" height="72" viewBox="0 0 72 72" fill="none">
+              <path d="M14 22C14 11 22 6 30 8C33 9 35 11 36 12C37 11 39 9 42 8C50 6 58 11 58 22C58 30 54 36 52 42C50 50 49 60 46 62C43 64 41 58 39 52C38 48 37 45 36 45C35 45 34 48 33 52C31 58 29 64 26 62C23 60 22 50 20 42C18 36 14 30 14 22Z" fill="url(#tg)"/>
+              <path d="M27 22C27 19 29 17 32 17" stroke="white" stroke-width="2.5" stroke-linecap="round" opacity=".5"/>
+              <defs><linearGradient id="tg" x1="14" y1="6" x2="58" y2="62" gradientUnits="userSpaceOnUse"><stop stop-color="#0EA5E9"/><stop offset="1" stop-color="#14B8A6"/></linearGradient></defs>
+            </svg>
+          </div>
+          <div class="hcard-title">4Smile Dental Clinic</div>
+          <div class="hcard-sub">Dr. Aman Saifi · Batla House, Delhi</div>
+          <div class="hcard-stats">
+            <div class="hstat"><div class="hstat-n">5.0</div><div class="hstat-l">Google Rating</div></div>
+            <div class="hstat"><div class="hstat-n" id="dynamicCount">27+</div><div class="hstat-l">Happy Patients</div></div>
+          </div>
+        </div>
+        <div class="float-chip fc1">✅ Appointment Confirmed</div>
+        <div class="float-chip fc2">🦷 Painless Treatment</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section bg-white">
+    <div class="container">
+      <div class="two-col">
+        <div>
+          <div class="sec-label">About Us</div>
+          <h2 class="sec-title">Welcome to 4Smile Dental Clinic</h2>
+          <p class="sec-body">At 4Smile Dental Clinic, we provide high-quality dental care with a patient-first approach. Led by <strong>Dr. Aman Saifi</strong>, we focus on comfortable treatments, detailed consultations, and long-term oral health solutions.</p>
+          <p class="sec-body" style="margin-top:12px">Located in the heart of Batla House, New Delhi, we combine modern dental techniques with a warm, welcoming environment so every patient feels completely at ease.</p>
+          <div class="feat-grid">
+            <div class="feat-item"><div class="feat-icon">✓</div>Experienced Dentist</div>
+            <div class="feat-item"><div class="feat-icon">✓</div>Modern Equipment</div>
+            <div class="feat-item"><div class="feat-icon">✓</div>Affordable Treatment</div>
+            <div class="feat-item"><div class="feat-icon">✓</div>Hygiene Focused</div>
+            <div class="feat-item"><div class="feat-icon">✓</div>Personalized Care</div>
+            <div class="feat-item"><div class="feat-icon">✓</div>Comfortable Environment</div>
+          </div>
+        </div>
+        <div class="about-vis-wrap">
+          <div class="about-vis-card">
+            <div style="font-size:64px;margin-bottom:16px">🦷</div>
+            <h3>Dr. Aman Saifi</h3>
+            <p>Lead Dentist & Founder</p>
+            <div class="rating-pill"><span class="stars-gold">★★★★★</span><span>5.0 · 27+ Reviews</span></div>
+          </div>
+          <div class="about-badge ab1">🏆 Best Dentist Batla House</div>
+          <div class="about-badge ab2">✅ Verified Clinic</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES PREVIEW -->
+  <section class="section bg-light">
+    <div class="container">
+      <div class="sec-header center">
+        <div class="sec-label">Our Services</div>
+        <h2 class="sec-title">Comprehensive Dental Care</h2>
+        <p class="sec-sub">From routine checkups to advanced procedures, we cover every dental need.</p>
+      </div>
+      <div class="svc-grid">
+        <div class="svc-card" onclick="showPage('services')"><div class="svc-ico bg-blue">🔍</div><div class="svc-name">Dental Consultation</div><div class="svc-desc">Comprehensive oral examination and personalized treatment planning.</div><div class="svc-link">Explore →</div></div>
+        <div class="svc-card" onclick="showPage('services')"><div class="svc-ico bg-orange">🦷</div><div class="svc-name">Root Canal Treatment</div><div class="svc-desc">Advanced painless root canal with modern techniques.</div><div class="svc-link">Explore →</div></div>
+        <div class="svc-card" onclick="showPage('services')"><div class="svc-ico bg-red">🩺</div><div class="svc-name">Tooth Extraction</div><div class="svc-desc">Safe, comfortable extraction with minimal discomfort.</div><div class="svc-link">Explore →</div></div>
+        <div class="svc-card" onclick="showPage('services')"><div class="svc-ico bg-green">✨</div><div class="svc-name">Teeth Cleaning</div><div class="svc-desc">Professional scaling and polishing for healthier gums.</div><div class="svc-link">Explore →</div></div>
+        <div class="svc-card" onclick="showPage('services')"><div class="svc-ico bg-sky">🔧</div><div class="svc-name">Dental Fillings</div><div class="svc-desc">Tooth-colored composite fillings for natural results.</div><div class="svc-link">Explore →</div></div>
+        <div class="svc-card" onclick="showPage('services')"><div class="svc-ico bg-teal">👑</div><div class="svc-name">Dental Crowns</div><div class="svc-desc">Custom-fitted crowns that protect and look natural.</div><div class="svc-link">Explore →</div></div>
+        <div class="svc-card" onclick="showPage('services')"><div class="svc-ico bg-purple">💎</div><div class="svc-name">Cosmetic Dentistry</div><div class="svc-desc">Smile enhancement for your most confident look.</div><div class="svc-link">Explore →</div></div>
+        <div class="svc-card" onclick="showPage('services')"><div class="svc-ico bg-amber">🛡️</div><div class="svc-name">Preventive Care</div><div class="svc-desc">Proactive care to prevent future dental problems.</div><div class="svc-link">Explore →</div></div>
+      </div>
+      <div class="center mt-40"><button class="btn-primary" onclick="showPage('services')">View All Services →</button></div>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section class="section bg-white">
+    <div class="container">
+      <div class="sec-header center">
+        <div class="sec-label">Why Choose Us</div>
+        <h2 class="sec-title">Patient-Centred Excellence</h2>
+        <p class="sec-sub">We go above and beyond to ensure every visit is comfortable, transparent, and results-driven.</p>
+      </div>
+      <div class="why-grid">
+        <div class="why-card"><div class="why-ico">❤️</div><div><div class="why-ttl">Patient-Centered Care</div><div class="why-dsc">Your comfort and well-being are our top priorities throughout every procedure.</div></div></div>
+        <div class="why-card"><div class="why-ico">📋</div><div><div class="why-ttl">Detailed Explanations</div><div class="why-dsc">Dr. Saifi explains every step so you always feel informed and in control.</div></div></div>
+        <div class="why-card"><div class="why-ico">💰</div><div><div class="why-ttl">Affordable Pricing</div><div class="why-dsc">High-quality dental care accessible to all — no hidden charges, transparent billing.</div></div></div>
+        <div class="why-card"><div class="why-ico">🔬</div><div><div class="why-ttl">Modern Techniques</div><div class="why-dsc">Latest dental technologies and methods for better results with minimal discomfort.</div></div></div>
+        <div class="why-card"><div class="why-ico">🧼</div><div><div class="why-ttl">Safety &amp; Hygiene</div><div class="why-dsc">Strict sterilization protocols ensure a safe, hygienic environment every time.</div></div></div>
+        <div class="why-card"><div class="why-ico">🤝</div><div><div class="why-ttl">Trusted Locally</div><div class="why-dsc">Proudly serving Batla House community with a growing base of satisfied patients.</div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DOCTOR -->
+  <section class="section bg-grad">
+    <div class="container">
+      <div class="two-col">
+        <div class="dr-wrap">
+          <div class="dr-card">
+            <div class="dr-emoji">👨‍⚕️</div>
+            <div class="dr-name">Dr. Aman Saifi</div>
+            <div class="dr-deg">BDS — Lead Dentist</div>
+            <div class="dr-badge-inner">⭐ 5.0 Patient Rating</div>
+          </div>
+        </div>
+        <div>
+          <div class="sec-label">Meet Your Dentist</div>
+          <h2 class="sec-title">Dr. Aman Saifi</h2>
+          <p class="sec-body">Dr. Aman Saifi is a dedicated dental professional committed to delivering the highest standard of care. With a patient-friendly approach and a focus on detailed consultations, he ensures every patient understands their treatment and feels completely at ease.</p>
+          <p class="sec-body" style="margin-top:12px">His expertise spans general dentistry, cosmetic procedures, and complex restorative treatments — all performed with the latest technology and a gentle touch.</p>
+          <div class="dr-hls">
+            <div class="dr-hl"><span class="dr-dot"></span>Patient-friendly approach</div>
+            <div class="dr-hl"><span class="dr-dot"></span>Detailed consultation every time</div>
+            <div class="dr-hl"><span class="dr-dot"></span>Modern treatment methods</div>
+            <div class="dr-hl"><span class="dr-dot"></span>Exceptional quality of care</div>
+          </div>
+          <button class="btn-primary" style="margin-top:28px" onclick="showPage('appointment')">Book with Dr. Saifi →</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS from API -->
+  <section class="section bg-light">
+    <div class="container">
+      <div class="sec-header center">
+        <div class="sec-label">Patient Reviews</div>
+        <h2 class="sec-title">What Our Patients Say</h2>
+        <p class="sec-sub">Real experiences from real patients who trust 4Smile Dental Clinic.</p>
+      </div>
+      <div class="reviews-grid" id="reviewsGrid"><div class="loading-msg">Loading reviews…</div></div>
+    </div>
+  </section>
+
+  <!-- GOOGLE BAR -->
+  <div class="google-bar">
+    <div class="container center">
+      <div class="g-eyebrow">Google Reviews</div>
+      <div class="g-num">5.0</div>
+      <div class="g-stars">★★★★★</div>
+      <div class="g-sub">Based on 27+ verified patient reviews</div>
+      <a class="btn-white" href="https://g.page/r/review" target="_blank">View All Reviews on Google →</a>
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <section class="section bg-white center">
+    <div class="container" style="max-width:680px">
+      <div class="sec-label" style="justify-content:center">Get Started Today</div>
+      <h2 class="sec-title">Book Your Dental Consultation Today</h2>
+      <p class="sec-sub" style="margin:0 auto 32px">Take the first step towards a healthier smile. Dr. Saifi and our team are ready to welcome you.</p>
+      <button class="btn-primary btn-lg" onclick="showPage('appointment')">Book Appointment Now →</button>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="f-icon">4S</div>
+          <div class="f-name">4Smile Dental Clinic</div>
+          <p class="f-desc">Premium dental care with a patient-first approach. Led by Dr. Aman Saifi in Batla House, New Delhi. Your smile is our priority.</p>
+          <div class="f-rating"><span class="f-stars">★★★★★</span> 5.0 Rating · 27+ Reviews</div>
+        </div>
+        <div>
+          <div class="f-ttl">Services</div>
+          <div class="f-links">
+            <a onclick="showPage('services')">Dental Consultation</a>
+            <a onclick="showPage('services')">Root Canal Treatment</a>
+            <a onclick="showPage('services')">Teeth Cleaning</a>
+            <a onclick="showPage('services')">Dental Fillings</a>
+            <a onclick="showPage('services')">Cosmetic Dentistry</a>
+          </div>
+        </div>
+        <div>
+          <div class="f-ttl">Quick Links</div>
+          <div class="f-links">
+            <a onclick="showPage('home')">Home</a>
+            <a onclick="showPage('services')">Services</a>
+            <a onclick="showPage('appointment')">Book Appointment</a>
+            <a onclick="showPage('appointment')">Contact Us</a>
+          </div>
+        </div>
+        <div>
+          <div class="f-ttl">Contact</div>
+          <div class="f-links">
+            <a href="tel:+917303456062">📞 +91 73034 56062</a>
+            <a href="https://wa.me/917303456062" target="_blank">💬 WhatsApp Us</a>
+            <span style="color:rgba(255,255,255,.45);font-size:13px;line-height:1.7">📍 R-28, Jogabai Extension, Batla House, New Delhi 110025</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom"><p>© 2024 4Smile Dental Clinic. All rights reserved. | Best Dentist Batla House | Dental Clinic New Delhi</p></div>
+    </div>
+  </footer>
+</div>
+
+<!-- ══ SERVICES ══════════════════════════════════════════════════════════════ -->
+<div id="pg-services" class="page">
+  <div class="page-hero">
+    <div class="container center">
+      <h1>Comprehensive Dental Services</h1>
+      <p>Modern dental treatments designed for healthy and confident smiles.</p>
+    </div>
+  </div>
+  <section class="section bg-white">
+    <div class="container">
+      <div class="sec-header center"><div class="sec-label">All Treatments</div><h2 class="sec-title">Our Dental Services</h2><p class="sec-sub">Complete care from prevention to restoration to cosmetic enhancement.</p></div>
+      <div class="svc-detail-grid">
+        <div class="svc-det-card"><div class="svc-det-ico bg-blue">🔍</div><div><div class="svc-det-ttl">Dental Consultation</div><div class="svc-det-dsc">A thorough oral examination to assess your dental health and develop a personalized treatment plan.</div><ul class="svc-pts"><li>Comprehensive oral health assessment</li><li>X-rays and diagnostic imaging</li><li>Customized treatment planning</li><li>Preventive care recommendations</li></ul></div></div>
+        <div class="svc-det-card"><div class="svc-det-ico bg-orange">🦷</div><div><div class="svc-det-ttl">Root Canal Treatment</div><div class="svc-det-dsc">Advanced painless root canal procedures using modern techniques to save your natural tooth.</div><ul class="svc-pts"><li>Painless modern procedure</li><li>Single or multiple sitting options</li><li>Post-treatment care guidance</li><li>High success rate</li></ul></div></div>
+        <div class="svc-det-card"><div class="svc-det-ico bg-red">🩺</div><div><div class="svc-det-ttl">Tooth Extraction</div><div class="svc-det-dsc">Safe, comfortable extraction with local anesthesia and expert aftercare instructions.</div><ul class="svc-pts"><li>Simple and surgical extractions</li><li>Wisdom tooth removal</li><li>Minimal discomfort procedure</li><li>Post-extraction care support</li></ul></div></div>
+        <div class="svc-det-card"><div class="svc-det-ico bg-green">✨</div><div><div class="svc-det-ttl">Teeth Cleaning (Scaling)</div><div class="svc-det-dsc">Professional scaling and polishing to remove plaque, tartar and stains for healthier gums.</div><ul class="svc-pts"><li>Ultrasonic scaling technology</li><li>Removes tartar and plaque</li><li>Polishing for brighter teeth</li><li>Gum disease prevention</li></ul></div></div>
+        <div class="svc-det-card"><div class="svc-det-ico bg-sky">🔧</div><div><div class="svc-det-ttl">Dental Fillings</div><div class="svc-det-dsc">Tooth-colored composite fillings that blend naturally with your smile to restore decayed teeth.</div><ul class="svc-pts"><li>Tooth-colored composite</li><li>Cavity restoration</li><li>Quick and painless</li><li>Long-lasting durability</li></ul></div></div>
+        <div class="svc-det-card"><div class="svc-det-ico bg-teal">👑</div><div><div class="svc-det-ttl">Dental Crowns</div><div class="svc-det-dsc">Custom-fitted crowns that protect damaged teeth while looking completely natural.</div><ul class="svc-pts"><li>Porcelain and ceramic options</li><li>Natural color matching</li><li>Protects weakened teeth</li><li>Long-lasting solution</li></ul></div></div>
+        <div class="svc-det-card"><div class="svc-det-ico bg-purple">💎</div><div><div class="svc-det-ttl">Cosmetic Dentistry</div><div class="svc-det-dsc">Smile enhancement procedures to give you the confident, beautiful smile you deserve.</div><ul class="svc-pts"><li>Teeth whitening</li><li>Smile makeover</li><li>Veneers and bonding</li><li>Gap closure treatment</li></ul></div></div>
+        <div class="svc-det-card"><div class="svc-det-ico bg-amber">🛡️</div><div><div class="svc-det-ttl">Preventive Dentistry</div><div class="svc-det-dsc">Proactive care to maintain optimal oral health and prevent costly dental problems.</div><ul class="svc-pts"><li>Regular checkup scheduling</li><li>Fluoride treatment</li><li>Oral hygiene education</li><li>Early problem detection</li></ul></div></div>
+      </div>
+    </div>
+  </section>
+  <section class="section bg-light">
+    <div class="container">
+      <div class="two-col">
+        <div><div class="sec-label">How It Works</div><h2 class="sec-title">Our Treatment Process</h2><p class="sec-sub">A clear, patient-centered approach ensuring the best possible outcome every time.</p></div>
+        <div class="process-list">
+          <div class="proc-step"><div class="proc-num">1</div><div><h3>Consultation</h3><p>Schedule a visit and meet Dr. Saifi for an initial discussion about your dental concerns and goals.</p></div></div>
+          <div class="proc-step"><div class="proc-num">2</div><div><h3>Diagnosis</h3><p>Comprehensive examination with X-rays and clinical assessment to identify the exact issue.</p></div></div>
+          <div class="proc-step"><div class="proc-num">3</div><div><h3>Treatment Planning</h3><p>A detailed plan with timelines and transparent cost breakdown — no surprises.</p></div></div>
+          <div class="proc-step"><div class="proc-num">4</div><div><h3>Treatment</h3><p>Expert treatment using modern techniques, ensuring maximum comfort throughout.</p></div></div>
+          <div class="proc-step"><div class="proc-num">5</div><div><h3>Follow-Up</h3><p>Post-treatment guidance and follow-up appointments to monitor your recovery.</p></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section bg-white">
+    <div class="container">
+      <div class="sec-header center"><div class="sec-label">FAQ</div><h2 class="sec-title">Frequently Asked Questions</h2><p class="sec-sub">Everything you need to know about dental care at 4Smile.</p></div>
+      <div class="faq-list" id="faqList"></div>
+    </div>
+  </section>
+  <div class="mini-cta">
+    <div class="container center">
+      <h2>Ready to Book?</h2>
+      <p>Take the first step towards a healthier, more confident smile.</p>
+      <button class="btn-white" onclick="showPage('appointment')">Book Appointment →</button>
+    </div>
+  </div>
+  <footer class="footer"><div class="container"><div class="footer-bottom center"><p>© 2024 4Smile Dental Clinic | Batla House, New Delhi | +91 73034 56062</p></div></div></footer>
+</div>
+
+<!-- ══ APPOINTMENT ════════════════════════════════════════════════════════════ -->
+<div id="pg-appointment" class="page">
+  <div class="page-hero">
+    <div class="container center"><h1>Schedule Your Visit Today</h1><p>Fill out the form and we'll confirm your slot within 2 hours.</p></div>
+  </div>
+  <section class="section bg-light">
+    <div class="container">
+      <div class="appt-layout">
+        <div class="form-card" id="formCard">
+          <div id="formContent">
+            <h2 class="form-title">Patient Appointment Form</h2>
+            <p class="form-sub">Fields marked <span class="req">*</span> are required.</p>
+            <div class="steps-bar">
+              <div class="si active" id="si0"><div class="sc">1</div><div class="sl">Personal</div></div>
+              <div class="scon"></div>
+              <div class="si" id="si1"><div class="sc">2</div><div class="sl">Appointment</div></div>
+              <div class="scon"></div>
+              <div class="si" id="si2"><div class="sc">3</div><div class="sl">Medical</div></div>
+              <div class="scon"></div>
+              <div class="si" id="si3"><div class="sc">4</div><div class="sl">Confirm</div></div>
+            </div>
+            <div class="api-err" id="apiErr" style="display:none"></div>
+            <!-- STEP 1 -->
+            <div class="fs active" id="fs0">
+              <div class="step-ttl">Personal Information</div>
+              <div class="fr2"><div class="fg"><label>Full Name <span class="req">*</span></label><input type="text" id="f_name" placeholder="Your full name" class="fi"></div><div class="fg"><label>Age <span class="req">*</span></label><input type="number" id="f_age" placeholder="Age" min="1" max="120" class="fi"></div></div>
+              <div class="fr2"><div class="fg"><label>Gender <span class="req">*</span></label><select id="f_gender" class="fi"><option value="">Select gender</option><option>Male</option><option>Female</option><option>Other</option><option>Prefer not to say</option></select></div><div class="fg"><label>Phone <span class="req">*</span></label><input type="tel" id="f_phone" placeholder="+91 98765 43210" class="fi"></div></div>
+              <div class="fr2"><div class="fg"><label>WhatsApp</label><input type="tel" id="f_whatsapp" placeholder="If different" class="fi"></div><div class="fg"><label>Email</label><input type="email" id="f_email" placeholder="you@email.com" class="fi"></div></div>
+              <div class="fr1"><div class="fg"><label>Address</label><input type="text" id="f_address" placeholder="Street, area" class="fi"></div></div>
+              <div class="fr3"><div class="fg"><label>City</label><input type="text" id="f_city" value="New Delhi" class="fi"></div><div class="fg"><label>State</label><input type="text" id="f_state" value="Delhi" class="fi"></div><div class="fg"><label>PIN</label><input type="text" id="f_pin" placeholder="110025" maxlength="6" class="fi"></div></div>
+              <div class="form-nav"><div></div><button class="btn-next" onclick="goNext(0)">Next: Appointment →</button></div>
+            </div>
+            <!-- STEP 2 -->
+            <div class="fs" id="fs1">
+              <div class="step-ttl">Appointment Details</div>
+              <div class="fr2"><div class="fg"><label>Preferred Date <span class="req">*</span></label><input type="date" id="f_date" class="fi"></div><div class="fg"><label>Preferred Time <span class="req">*</span></label><select id="f_time" class="fi"><option value="">Select slot</option><option>10:00 AM - 11:00 AM</option><option>11:00 AM - 12:00 PM</option><option>12:00 PM - 1:00 PM</option><option>2:00 PM - 3:00 PM</option><option>3:00 PM - 4:00 PM</option><option>4:00 PM - 5:00 PM</option><option>5:00 PM - 6:00 PM</option><option>6:00 PM - 7:00 PM</option></select></div></div>
+              <div class="fr1"><div class="fg"><label>Reason for Visit <span class="req">*</span></label><select id="f_reason" class="fi"><option value="">Select reason</option><option>Consultation</option><option>Tooth Pain</option><option>Root Canal</option><option>Tooth Extraction</option><option>Teeth Cleaning</option><option>Dental Filling</option><option>Dental Crown</option><option>Cosmetic Dentistry</option><option>Wisdom Tooth</option><option>Broken Tooth</option><option>Other</option></select></div></div>
+              <div class="form-nav"><button class="btn-prev" onclick="goPrev(1)">← Back</button><button class="btn-next" onclick="goNext(1)">Next: Medical Info →</button></div>
+            </div>
+            <!-- STEP 3 -->
+            <div class="fs" id="fs2">
+              <div class="step-ttl">Medical Information <span style="font-size:13px;font-weight:400;color:var(--tm)">(optional)</span></div>
+              <div class="fr1"><div class="fg"><label>Any Medical Conditions?</label><textarea id="f_conditions" class="fi ta" placeholder="E.g. Diabetes, Blood Pressure…"></textarea></div></div>
+              <div class="fr1"><div class="fg"><label>Current Medications</label><textarea id="f_medications" class="fi ta" placeholder="List any medications you are taking"></textarea></div></div>
+              <div class="fr1"><div class="fg"><label>Allergies</label><textarea id="f_allergies" class="fi ta" placeholder="Known allergies (medications, latex…)"></textarea></div></div>
+              <div class="fr1"><div class="fg"><label>Previous Dental Treatment</label><textarea id="f_prev_dental" class="fi ta" placeholder="Previous dental work or procedures"></textarea></div></div>
+              <div class="form-nav"><button class="btn-prev" onclick="goPrev(2)">← Back</button><button class="btn-next" onclick="goNext(2)">Review &amp; Submit →</button></div>
+            </div>
+            <!-- STEP 4 -->
+            <div class="fs" id="fs3">
+              <div class="step-ttl">Review &amp; Confirm</div>
+              <div class="summary-box" id="summaryBox"></div>
+              <div class="fr1"><div class="fg"><label>Additional Notes</label><textarea id="f_message" class="fi ta" placeholder="Any other information for Dr. Saifi…"></textarea></div></div>
+              <div class="consent-box"><input type="checkbox" id="f_consent"><label for="f_consent">I consent to 4Smile Dental Clinic contacting me regarding my appointment via phone, WhatsApp, or email.</label></div>
+              <div id="consentErr" class="field-err" style="display:none">Please accept the consent to proceed.</div>
+              <button class="btn-submit" id="submitBtn" onclick="submitForm()"><span id="subTxt">📅 Book My Appointment</span><span id="subSpin" class="spinner" style="display:none"></span></button>
+              <div class="form-nav" style="margin-top:12px"><button class="btn-prev" onclick="goPrev(3)">← Back</button><div></div></div>
+            </div>
+          </div>
+          <div id="successState" style="display:none" class="success-state">
+            <div class="succ-icon">✓</div>
+            <h3>Appointment Requested!</h3>
+            <p>Your appointment has been submitted. Our team will call you within 2 hours to confirm your slot.</p>
+            <div class="succ-info"><strong>📞 Quick confirmation:</strong><br>Call/WhatsApp: <a href="tel:+917303456062">+91 73034 56062</a></div>
+            <div style="display:flex;gap:12px;flex-wrap:wrap;justify-content:center;margin-top:20px">
+              <button class="btn-primary" onclick="resetForm()">Book Another Appointment</button>
+              <button class="btn-outline" onclick="showPage('home')">Back to Home</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- SIDEBAR -->
+        <div class="appt-side">
+          <div class="side-card">
+            <div class="side-ttl">📍 Clinic Location</div>
+            <div class="side-item"><div class="side-ico">📍</div><div><div class="side-lbl">Address</div><div class="side-val">R-28, Ground Floor, Shop No-2, Jogabai Extension, Batla House, New Delhi – 110025</div></div></div>
+            <div class="side-item"><div class="side-ico">📞</div><div><div class="side-lbl">Phone</div><div class="side-val"><a href="tel:+917303456062" style="color:var(--primary)">+91 73034 56062</a></div></div></div>
+            <div class="side-item"><div class="side-ico">⭐</div><div><div class="side-lbl">Google Rating</div><div class="side-val">5.0 ★★★★★ (27+ Reviews)</div></div></div>
+          </div>
+          <div class="side-card">
+            <div class="side-ttl">Quick Actions</div>
+            <div class="act-grid">
+              <a class="act-btn act-primary" href="tel:+917303456062">📞 Call Now</a>
+              <a class="act-btn act-green" href="https://wa.me/917303456062" target="_blank">💬 WhatsApp</a>
+              <a class="act-btn act-outline" href="https://maps.google.com/?q=4Smile+Dental+Clinic+Batla+House+New+Delhi" target="_blank">🗺️ Get Directions</a>
+            </div>
+          </div>
+          <div class="side-card">
+            <div class="side-ttl">🕐 Clinic Hours</div>
+            <div class="hrs"><div class="hr-row"><span>Monday – Saturday</span><strong>10:00 AM – 7:00 PM</strong></div><div class="hr-row"><span>Sunday</span><strong style="color:#EF4444">By Appointment</strong></div></div>
+          </div>
+          <div class="side-card" style="padding:0;overflow:hidden;border-radius:var(--r-lg)">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.4568024737037!2d77.27697!3d28.5501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3701d3d6a7b%3A0xa3f49a19c8e0d1af!2sJogabai%20Extension%2C%20Batla%20House%2C%20New%20Delhi!5e0!3m2!1sen!2sin!4v1" width="100%" height="220" style="border:0;display:block" allowfullscreen loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer"><div class="container"><div class="footer-bottom center"><p>© 2024 4Smile Dental Clinic | Batla House, New Delhi | +91 73034 56062</p></div></div></footer>
+</div>
+
+<!-- ══ ADMIN ══════════════════════════════════════════════════════════════════ -->
+<div id="pg-admin" class="page">
+  <div id="adminLogin" class="adm-login-wrap">
+    <div class="adm-login-card">
+      <div class="adm-logo">4S</div>
+      <h2 class="adm-title">Admin Portal</h2>
+      <p class="adm-sub">4Smile Dental Clinic — Secure Access</p>
+      <div id="loginErr" class="api-err" style="display:none"></div>
+      <div class="fg" style="margin-bottom:16px"><label>Username</label><input type="text" id="adminUser" class="fi" value="admin" placeholder="Username"></div>
+      <div class="fg" style="margin-bottom:24px"><label>Password</label><input type="password" id="adminPass" class="fi" value="4smile2024" placeholder="Password" onkeydown="if(event.key==='Enter')doLogin()"></div>
+      <button class="btn-submit" onclick="doLogin()"><span id="loginTxt">Login to Dashboard</span><span id="loginSpin" class="spinner" style="display:none"></span></button>
+      <div class="hint-txt">Demo: <strong>admin</strong> / <strong>4smile2024</strong></div>
+      <button class="btn-back" onclick="showPage('home')">← Back to Website</button>
+    </div>
+  </div>
+  <div id="adminDash" style="display:none;min-height:100vh;background:var(--bg)">
+    <div class="dash-nav">
+      <div class="dash-logo-wrap"><div class="dash-logo-ico">4S</div>4Smile Admin</div>
+      <div style="display:flex;align-items:center;gap:12px">
+        <span id="dashUser" style="font-size:13px;color:var(--tm)"></span>
+        <button class="btn-logout" onclick="doLogout()">Logout</button>
+      </div>
+    </div>
+    <div class="dash-tabs">
+      <button class="dtab active" id="dt-overview" onclick="switchTab('overview')">📊 Overview</button>
+      <button class="dtab" id="dt-appointments" onclick="switchTab('appointments')">📅 Appointments</button>
+      <button class="dtab" id="dt-contacts" onclick="switchTab('contacts')">📬 Messages</button>
+    </div>
+    <div class="dash-body">
+      <!-- OVERVIEW -->
+      <div id="tab-overview" class="dtab-content active">
+        <div class="stats-grid" id="statsGrid"><div class="stat-card"><div class="stat-n">…</div><div class="stat-l">Loading</div></div></div>
+        <div style="margin-top:32px">
+          <div class="dash-sec-ttl">Recent Appointments</div>
+          <div class="table-wrap"><table class="dtable" id="recentTable">
+            <thead><tr><th>#</th><th>Name</th><th>Phone</th><th>Date</th><th>Reason</th><th>Status</th></tr></thead>
+            <tbody id="recentBody"><tr><td colspan="6" class="empty-cell">Loading…</td></tr></tbody>
+          </table></div>
+        </div>
+      </div>
+      <!-- APPOINTMENTS -->
+      <div id="tab-appointments" class="dtab-content">
+        <div class="dash-toolbar">
+          <input type="text" class="dash-search" id="apptSearch" placeholder="Search name, phone, reason…" oninput="loadAppointments()">
+          <select class="dash-filter" id="apptStatus" onchange="loadAppointments()"><option value="">All Status</option><option value="pending">Pending</option><option value="confirmed">Confirmed</option><option value="completed">Completed</option><option value="cancelled">Cancelled</option></select>
+          <input type="date" class="dash-filter" id="apptDate" onchange="loadAppointments()">
+          <button class="export-btn" onclick="exportCSV()">⬇ Export CSV</button>
+        </div>
+        <div class="table-wrap">
+          <table class="dtable" id="apptTable">
+            <thead><tr><th>#</th><th>Name</th><th>Age</th><th>Phone</th><th>Date</th><th>Time</th><th>Reason</th><th>Status</th><th>Actions</th></tr></thead>
+            <tbody id="apptBody"><tr><td colspan="9" class="empty-cell">Loading…</td></tr></tbody>
+          </table>
+        </div>
+        <div class="pagination" id="apptPagination"></div>
+      </div>
+      <!-- CONTACTS -->
+      <div id="tab-contacts" class="dtab-content">
+        <div class="table-wrap">
+          <table class="dtable">
+            <thead><tr><th>#</th><th>Name</th><th>Phone</th><th>Email</th><th>Subject</th><th>Message</th><th>Date</th><th>Action</th></tr></thead>
+            <tbody id="contactBody"><tr><td colspan="8" class="empty-cell">Loading…</td></tr></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="toast" class="toast"></div>
+<script>
+/* ── 4Smile Dental Clinic · Frontend JS ────────────────────────────────── */
+
+// ── STATE ───────────────────────────────────────────────────────────────────
+const state = {
+  currentPage: 'home',
+  adminToken: localStorage.getItem('4smile_token') || '',
+  currentStep: 0,
+  apptPage: 1,
+  totalApptPages: 1,
+};
+
+// ── API ─────────────────────────────────────────────────────────────────────
+const API = {
+  async req(method, path, body = null) {
+    const opts = {
+      method,
+      headers: { 'Content-Type': 'application/json' },
+    };
+    if (state.adminToken) opts.headers['Authorization'] = 'Bearer ' + state.adminToken;
+    if (body) opts.body = JSON.stringify(body);
+    try {
+      const res = await fetch('/api' + path, opts);
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok) throw new Error(data.error || 'Request failed');
+      return data;
+    } catch (e) {
+      throw e;
+    }
+  },
+  get:    (path)        => API.req('GET',    path),
+  post:   (path, body)  => API.req('POST',   path, body),
+  patch:  (path, body)  => API.req('PATCH',  path, body),
+  delete: (path)        => API.req('DELETE', path),
+};
+
+// ── TOAST ───────────────────────────────────────────────────────────────────
+function showToast(msg, type = '') {
+  const el = document.getElementById('toast');
+  el.textContent = msg;
+  el.className = 'toast show ' + type;
+  setTimeout(() => el.classList.remove('show'), 3500);
+}
+
+// ── NAVIGATION ──────────────────────────────────────────────────────────────
+function showPage(page) {
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+  const target = document.getElementById('pg-' + page);
+  if (!target) return;
+  target.classList.add('active');
+  state.currentPage = page;
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+
+  // Active nav link
+  ['home', 'services', 'appt'].forEach(k => {
+    const el = document.getElementById('nl-' + k);
+    if (el) el.classList.remove('active');
+  });
+  const navMap = { home: 'home', services: 'services', appointment: 'appt' };
+  if (navMap[page]) {
+    const nav = document.getElementById('nl-' + navMap[page]);
+    if (nav) nav.classList.add('active');
+  }
+
+  // Lazy-load page data
+  if (page === 'home') loadReviews();
+  if (page === 'services') initFAQ();
+  if (page === 'admin') {
+    if (state.adminToken) {
+      showDashboard();
+    } else {
+      document.getElementById('adminLogin').style.display = 'flex';
+      document.getElementById('adminDash').style.display = 'none';
+    }
+  }
+}
+
+function toggleMenu() {
+  document.getElementById('mobileMenu').classList.toggle('open');
+}
+function closeMenu() {
+  document.getElementById('mobileMenu').classList.remove('open');
+}
+
+// Scroll-shadow on nav
+window.addEventListener('scroll', () => {
+  document.getElementById('mainNav').style.boxShadow =
+    window.scrollY > 10 ? '0 2px 20px rgba(0,0,0,.08)' : 'none';
+});
+
+// ── REVIEWS ──────────────────────────────────────────────────────────────────
+async function loadReviews() {
+  const grid = document.getElementById('reviewsGrid');
+  if (!grid) return;
+  try {
+    const data = await API.get('/reviews');
+    if (!data.reviews || !data.reviews.length) {
+      grid.innerHTML = '<div class="loading-msg">No reviews yet.</div>';
+      return;
+    }
+    grid.innerHTML = data.reviews.map(r => `
+      <div class="rev-card">
+        <div class="rev-stars">${'★'.repeat(r.rating || 5)}</div>
+        <div class="rev-text">"${esc(r.comment)}"</div>
+        <div class="rev-author">
+          <div class="rev-avatar">${(r.patient || 'P')[0].toUpperCase()}</div>
+          <div>
+            <div class="rev-name">${esc(r.patient)}</div>
+            <div class="rev-label">${esc(r.treatment || 'Verified Patient')} · ✅ Verified</div>
+          </div>
+        </div>
+      </div>
+    `).join('');
+    // Update dynamic count
+    const countEl = document.getElementById('dynamicCount');
+    if (countEl) countEl.textContent = data.reviews.length + '+';
+  } catch (e) {
+    grid.innerHTML = fallbackReviews();
+  }
+}
+
+function fallbackReviews() {
+  const revs = [
+    { patient: 'Verified Patient', rating: 5, treatment: 'Root Canal', comment: "Dr. Saifi is exceptional — explained every step of my root canal. Virtually painless! Highly recommend." },
+    { patient: 'Verified Patient', rating: 5, treatment: 'Teeth Cleaning', comment: "Best dental clinic in Batla House. Very affordable and the quality of care is top-notch." },
+    { patient: 'Verified Patient', rating: 5, treatment: 'Tooth Extraction', comment: "Was very nervous but Dr. Saifi was so gentle. No pain at all during the procedure. Will definitely come back." },
+  ];
+  return revs.map(r => `
+    <div class="rev-card">
+      <div class="rev-stars">${'★'.repeat(r.rating)}</div>
+      <div class="rev-text">"${r.comment}"</div>
+      <div class="rev-author">
+        <div class="rev-avatar">V</div>
+        <div><div class="rev-name">${r.patient}</div><div class="rev-label">${r.treatment} · ✅ Google Review</div></div>
+      </div>
+    </div>
+  `).join('');
+}
+
+// ── FAQ ──────────────────────────────────────────────────────────────────────
+const FAQS = [
+  { q: "Is root canal treatment painful?", a: "Modern root canal treatment is virtually painless. We use local anesthesia to ensure you feel no pain during the procedure. Most patients report feeling pressure, but not pain." },
+  { q: "How long does a dental cleaning take?", a: "A professional dental cleaning (scaling) takes 30–60 minutes depending on tartar buildup. We recommend cleaning every 6 months for optimal gum health." },
+  { q: "How do I know if I need a root canal?", a: "Common signs include severe toothache, prolonged sensitivity to hot or cold, darkening of the tooth, swollen gums, or a persistent pimple on the gums. Dr. Saifi will confirm with an X-ray." },
+  { q: "What does treatment cost at 4Smile?", a: "We offer very affordable pricing with full transparency — no hidden charges. Consultation from ₹200, cleaning from ₹500, fillings from ₹300, root canal from ₹2500. Please call for a detailed estimate." },
+  { q: "How long does a dental crown last?", a: "With proper care, dental crowns typically last 10–15 years or more. Good oral hygiene and regular dental visits significantly extend their lifespan." },
+  { q: "Is tooth extraction always necessary?", a: "No. Extraction is only recommended when the tooth cannot be saved by other means like root canal or crowns. Dr. Saifi always explores all alternatives first." },
+  { q: "How can I whiten my teeth?", a: "We offer safe, professional in-clinic teeth whitening with noticeable results in a single session. We also advise on take-home options based on your specific needs." },
+  { q: "How often should I visit the dentist?", a: "We recommend visiting every 6 months for a routine checkup and cleaning. If you have specific concerns or ongoing treatment, more frequent visits may be advised." },
+  { q: "What should I do in a dental emergency?", a: "Call us immediately at +91 73034 56062. We accommodate dental emergencies — severe pain, broken teeth, lost crowns — as quickly as possible." },
+  { q: "Is the clinic hygienic and safe?", a: "Absolutely. We follow strict sterilization and infection control protocols. All instruments are sterilized and single-use items are disposed of after every patient." },
+  { q: "Do you treat children?", a: "Yes, we welcome patients of all ages including children. Dr. Saifi's gentle approach makes children feel completely at ease during their visit." },
+];
+
+let faqInit = false;
+function initFAQ() {
+  const list = document.getElementById('faqList');
+  if (!list || faqInit) return;
+  faqInit = true;
+  list.innerHTML = FAQS.map((f, i) => `
+    <div class="faq-item" id="faq${i}">
+      <div class="faq-q" onclick="toggleFAQ(${i})">${f.q}<div class="faq-arr">▼</div></div>
+      <div class="faq-a"><div class="faq-a-inner">${f.a}</div></div>
+    </div>
+  `).join('');
+}
+function toggleFAQ(i) {
+  const item = document.getElementById('faq' + i);
+  const isOpen = item.classList.contains('open');
+  document.querySelectorAll('.faq-item.open').forEach(el => el.classList.remove('open'));
+  if (!isOpen) item.classList.add('open');
+}
+
+// ── APPOINTMENT FORM ─────────────────────────────────────────────────────────
+// Set min date
+(function () {
+  const el = document.getElementById('f_date');
+  if (el) {
+    const t = new Date();
+    t.setDate(t.getDate() + 1); // min tomorrow
+    el.min = t.toISOString().split('T')[0];
+  }
+})();
+
+function setStep(n) {
+  document.querySelectorAll('.fs').forEach((el, i) => el.classList.toggle('active', i === n));
+  document.querySelectorAll('.si').forEach((el, i) => {
+    el.classList.remove('active', 'done');
+    if (i === n) el.classList.add('active');
+    else if (i < n) el.classList.add('done');
+  });
+  state.currentStep = n;
+}
+
+function validateStep(n) {
+  const err = document.getElementById('apiErr');
+  err.style.display = 'none';
+
+  if (n === 0) {
+    const name  = v('f_name');
+    const age   = v('f_age');
+    const gender= v('f_gender');
+    const phone = v('f_phone');
+    if (!name || !age || !gender || !phone) {
+      err.textContent = 'Please fill in all required fields: Full Name, Age, Gender, and Phone.';
+      err.style.display = 'block';
+      return false;
+    }
+    const digits = phone.replace(/[\s\-\(\)\+]/g, '');
+    if (digits.length < 10) {
+      err.textContent = 'Please enter a valid phone number (at least 10 digits).';
+      err.style.display = 'block';
+      return false;
+    }
+    const email = v('f_email');
+    if (email && !/^[^@]+@[^@]+\.[^@]+$/.test(email)) {
+      err.textContent = 'Please enter a valid email address.';
+      err.style.display = 'block';
+      return false;
+    }
+  }
+  if (n === 1) {
+    if (!v('f_date') || !v('f_time') || !v('f_reason')) {
+      err.textContent = 'Please fill in Date, Time, and Reason for Visit.';
+      err.style.display = 'block';
+      return false;
+    }
+  }
+  return true;
+}
+
+function goNext(n) {
+  if (!validateStep(n)) return;
+  if (n === 2) buildSummary();
+  setStep(n + 1);
+  document.getElementById('formCard').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+function goPrev(n) {
+  setStep(n - 1);
+}
+
+function buildSummary() {
+  document.getElementById('summaryBox').innerHTML = `
+    <div class="sum-grid">
+      <div><div class="sum-key">Name</div><div class="sum-val">${esc(v('f_name'))}</div></div>
+      <div><div class="sum-key">Phone</div><div class="sum-val">${esc(v('f_phone'))}</div></div>
+      <div><div class="sum-key">Date</div><div class="sum-val" style="color:var(--primary)">${v('f_date')}</div></div>
+      <div><div class="sum-key">Time</div><div class="sum-val" style="color:var(--primary)">${v('f_time')}</div></div>
+      <div><div class="sum-key">Reason</div><div class="sum-val">${esc(v('f_reason'))}</div></div>
+      <div><div class="sum-key">Age / Gender</div><div class="sum-val">${v('f_age')} / ${v('f_gender')}</div></div>
+    </div>
+  `;
+}
+
+async function submitForm() {
+  const err = document.getElementById('apiErr');
+  const consentErr = document.getElementById('consentErr');
+  err.style.display = 'none';
+  consentErr.style.display = 'none';
+
+  if (!document.getElementById('f_consent').checked) {
+    consentErr.style.display = 'block';
+    return;
+  }
+
+  const btn = document.getElementById('submitBtn');
+  const txt = document.getElementById('subTxt');
+  const spin = document.getElementById('subSpin');
+  btn.disabled = true;
+  txt.style.display = 'none';
+  spin.style.display = 'block';
+
+  const payload = {
+    full_name:   v('f_name'),
+    age:         v('f_age'),
+    gender:      v('f_gender'),
+    phone:       v('f_phone'),
+    whatsapp:    v('f_whatsapp'),
+    email:       v('f_email'),
+    address:     v('f_address'),
+    city:        v('f_city'),
+    state:       v('f_state'),
+    pin_code:    v('f_pin'),
+    pref_date:   v('f_date'),
+    pref_time:   v('f_time'),
+    reason:      v('f_reason'),
+    conditions:  v('f_conditions'),
+    medications: v('f_medications'),
+    allergies:   v('f_allergies'),
+    prev_dental: v('f_prev_dental'),
+    message:     v('f_message'),
+  };
+
+  try {
+    const res = await API.post('/appointments', payload);
+    document.getElementById('formContent').style.display = 'none';
+    document.getElementById('successState').style.display = 'block';
+    showToast('Appointment booked successfully! ID: #' + res.id, 'success');
+  } catch (e) {
+    err.textContent = e.message || 'Failed to book appointment. Please try again or call us directly.';
+    err.style.display = 'block';
+    btn.disabled = false;
+    txt.style.display = 'inline';
+    spin.style.display = 'none';
+  }
+}
+
+function resetForm() {
+  document.getElementById('formContent').style.display = 'block';
+  document.getElementById('successState').style.display = 'none';
+  document.getElementById('f_consent').checked = false;
+  ['f_name','f_age','f_phone','f_whatsapp','f_email','f_address','f_pin',
+   'f_conditions','f_medications','f_allergies','f_prev_dental','f_message'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.value = '';
+  });
+  ['f_gender','f_time','f_reason'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.value = '';
+  });
+  document.getElementById('f_city').value = 'New Delhi';
+  document.getElementById('f_state').value = 'Delhi';
+  const btn = document.getElementById('submitBtn');
+  btn.disabled = false;
+  document.getElementById('subTxt').style.display = 'inline';
+  document.getElementById('subSpin').style.display = 'none';
+  document.getElementById('apiErr').style.display = 'none';
+  setStep(0);
+}
+
+// ── ADMIN AUTH ───────────────────────────────────────────────────────────────
+async function doLogin() {
+  const txt  = document.getElementById('loginTxt');
+  const spin = document.getElementById('loginSpin');
+  const err  = document.getElementById('loginErr');
+  err.style.display = 'none';
+
+  const username = document.getElementById('adminUser').value.trim();
+  const password = document.getElementById('adminPass').value.trim();
+  if (!username || !password) {
+    err.textContent = 'Please enter username and password.';
+    err.style.display = 'block';
+    return;
+  }
+
+  txt.style.display = 'none';
+  spin.style.display = 'inline-block';
+
+  try {
+    const data = await API.post('/auth/login', { username, password });
+    state.adminToken = data.token;
+    localStorage.setItem('4smile_token', data.token);
+    showDashboard();
+  } catch (e) {
+    err.textContent = e.message || 'Invalid credentials.';
+    err.style.display = 'block';
+    txt.style.display = 'inline';
+    spin.style.display = 'none';
+  }
+}
+
+function doLogout() {
+  state.adminToken = '';
+  localStorage.removeItem('4smile_token');
+  document.getElementById('adminDash').style.display = 'none';
+  document.getElementById('adminLogin').style.display = 'flex';
+  showToast('Logged out successfully');
+}
+
+function showDashboard() {
+  document.getElementById('adminLogin').style.display = 'none';
+  document.getElementById('adminDash').style.display = 'block';
+  const userEl = document.getElementById('dashUser');
+  if (userEl) userEl.textContent = 'admin';
+  loadDashboardStats();
+  loadAppointments();
+}
+
+// ── ADMIN TABS ────────────────────────────────────────────────────────────────
+function switchTab(tab) {
+  document.querySelectorAll('.dtab').forEach(el => el.classList.remove('active'));
+  document.querySelectorAll('.dtab-content').forEach(el => el.classList.remove('active'));
+  const btn = document.getElementById('dt-' + tab);
+  if (btn) btn.classList.add('active');
+  const content = document.getElementById('tab-' + tab);
+  if (content) content.classList.add('active');
+
+  if (tab === 'appointments') loadAppointments();
+  if (tab === 'contacts') loadContacts();
+}
+
+// ── DASHBOARD STATS ──────────────────────────────────────────────────────────
+async function loadDashboardStats() {
+  try {
+    const d = await API.get('/dashboard/stats');
+    const grid = document.getElementById('statsGrid');
+    grid.innerHTML = [
+      { n: d.total,      l: 'Total Appointments', c: '' },
+      { n: d.pending,    l: 'Pending',             c: 'color:#F59E0B' },
+      { n: d.confirmed,  l: 'Confirmed',           c: 'color:var(--accent)' },
+      { n: d.completed,  l: 'Completed',           c: 'color:#3B82F6' },
+      { n: d.today,      l: 'Today',               c: 'color:var(--primary)' },
+      { n: d.avg_rating + '⭐', l: 'Avg Rating',  c: 'color:#F59E0B' },
+    ].map(s => `<div class="stat-card"><div class="stat-n" style="${s.c}">${s.n}</div><div class="stat-l">${s.l}</div></div>`).join('');
+
+    // Recent appointments
+    const body = document.getElementById('recentBody');
+    if (d.recent && d.recent.length) {
+      body.innerHTML = d.recent.map((r, i) => `
+        <tr>
+          <td style="color:var(--tm)">${i + 1}</td>
+          <td><strong>${esc(r.full_name)}</strong></td>
+          <td><a href="tel:${r.phone}" style="color:var(--primary)">${esc(r.phone)}</a></td>
+          <td>${r.pref_date}</td>
+          <td>${esc(r.reason)}</td>
+          <td>${statusBadge(r.status)}</td>
+        </tr>
+      `).join('');
+    } else {
+      body.innerHTML = '<tr><td colspan="6" class="empty-cell">No appointments yet.</td></tr>';
+    }
+  } catch (e) {
+    showToast('Failed to load stats: ' + e.message, 'error');
+  }
+}
+
+// ── APPOINTMENTS TABLE ────────────────────────────────────────────────────────
+async function loadAppointments() {
+  const search = (document.getElementById('apptSearch') || {}).value || '';
+  const status = (document.getElementById('apptStatus') || {}).value || '';
+  const date   = (document.getElementById('apptDate') || {}).value || '';
+  const page   = state.apptPage;
+
+  let url = `/appointments?page=${page}&limit=15`;
+  if (search) url += '&search=' + encodeURIComponent(search);
+  if (status) url += '&status=' + encodeURIComponent(status);
+  if (date)   url += '&date='   + encodeURIComponent(date);
+
+  const body = document.getElementById('apptBody');
+  body.innerHTML = '<tr><td colspan="9" class="empty-cell">Loading…</td></tr>';
+
+  try {
+    const data = await API.get(url);
+    state.totalApptPages = data.pages || 1;
+
+    if (!data.appointments || !data.appointments.length) {
+      body.innerHTML = '<tr><td colspan="9" class="empty-cell">No appointments found.</td></tr>';
+      document.getElementById('apptPagination').innerHTML = '';
+      return;
+    }
+
+    body.innerHTML = data.appointments.map((r, i) => `
+      <tr>
+        <td style="color:var(--tm)">${r.id}</td>
+        <td><strong>${esc(r.full_name)}</strong><br><span style="font-size:11px;color:var(--tm)">${esc(r.email || '')}</span></td>
+        <td>${r.age || '—'}</td>
+        <td><a href="tel:${r.phone}" style="color:var(--primary)">${esc(r.phone)}</a></td>
+        <td>${r.pref_date}</td>
+        <td style="white-space:nowrap;font-size:12px">${esc(r.pref_time)}</td>
+        <td>${esc(r.reason)}</td>
+        <td>
+          <select class="status-sel" onchange="updateStatus(${r.id}, this.value)" title="Change status">
+            ${['pending','confirmed','completed','cancelled'].map(s =>
+              `<option value="${s}" ${r.status === s ? 'selected' : ''}>${s.charAt(0).toUpperCase() + s.slice(1)}</option>`
+            ).join('')}
+          </select>
+        </td>
+        <td>
+          <button class="act-del" onclick="deleteAppt(${r.id})" title="Delete">✕</button>
+        </td>
+      </tr>
+    `).join('');
+
+    // Pagination
+    const pg = document.getElementById('apptPagination');
+    if (data.pages > 1) {
+      let html = '';
+      for (let i = 1; i <= data.pages; i++) {
+        html += `<button class="pg-btn ${i === page ? 'active' : ''}" onclick="goPage(${i})">${i}</button>`;
+      }
+      pg.innerHTML = html;
+    } else {
+      pg.innerHTML = '';
+    }
+  } catch (e) {
+    body.innerHTML = `<tr><td colspan="9" class="empty-cell" style="color:#EF4444">${e.message}</td></tr>`;
+  }
+}
+
+function goPage(n) {
+  state.apptPage = n;
+  loadAppointments();
+}
+
+async function updateStatus(id, status) {
+  try {
+    await API.patch('/appointments/' + id, { status });
+    showToast('Status updated to ' + status, 'success');
+    loadDashboardStats();
+  } catch (e) {
+    showToast('Failed: ' + e.message, 'error');
+  }
+}
+
+async function deleteAppt(id) {
+  if (!confirm('Delete appointment #' + id + '? This cannot be undone.')) return;
+  try {
+    await API.delete('/appointments/' + id);
+    showToast('Appointment deleted', 'success');
+    loadAppointments();
+    loadDashboardStats();
+  } catch (e) {
+    showToast('Failed: ' + e.message, 'error');
+  }
+}
+
+async function exportCSV() {
+  if (!state.adminToken) return;
+  const url = '/api/appointments/export/csv';
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = '4smile_appointments.csv';
+  // Add auth header via fetch then download
+  try {
+    const res = await fetch(url, { headers: { Authorization: 'Bearer ' + state.adminToken } });
+    if (!res.ok) throw new Error('Export failed');
+    const blob = await res.blob();
+    const objUrl = URL.createObjectURL(blob);
+    a.href = objUrl;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(objUrl);
+    showToast('Exported successfully!', 'success');
+  } catch (e) {
+    showToast('Export failed: ' + e.message, 'error');
+  }
+}
+
+// ── CONTACTS ──────────────────────────────────────────────────────────────────
+async function loadContacts() {
+  const body = document.getElementById('contactBody');
+  body.innerHTML = '<tr><td colspan="8" class="empty-cell">Loading…</td></tr>';
+  try {
+    const data = await API.get('/contacts');
+    if (!data.contacts || !data.contacts.length) {
+      body.innerHTML = '<tr><td colspan="8" class="empty-cell">No messages yet.</td></tr>';
+      return;
+    }
+    body.innerHTML = data.contacts.map((c, i) => `
+      <tr style="${c.replied ? 'opacity:.6' : ''}">
+        <td>${c.id}</td>
+        <td><strong>${esc(c.name)}</strong></td>
+        <td>${esc(c.phone || '—')}</td>
+        <td>${esc(c.email || '—')}</td>
+        <td>${esc(c.subject || '—')}</td>
+        <td style="max-width:200px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${esc(c.message)}</td>
+        <td style="font-size:12px">${c.created_at ? c.created_at.slice(0, 10) : '—'}</td>
+        <td>${c.replied ? '<span style="color:var(--accent);font-size:12px;font-weight:600">Replied</span>' :
+          `<button class="act-del" style="color:var(--accent)" onclick="markReplied(${c.id})">✓ Mark Replied</button>`}</td>
+      </tr>
+    `).join('');
+  } catch (e) {
+    body.innerHTML = `<tr><td colspan="8" class="empty-cell" style="color:#EF4444">${e.message}</td></tr>`;
+  }
+}
+
+async function markReplied(id) {
+  try {
+    await API.patch('/contacts/' + id + '/reply', {});
+    showToast('Marked as replied', 'success');
+    loadContacts();
+  } catch (e) {
+    showToast('Failed: ' + e.message, 'error');
+  }
+}
+
+// ── HELPERS ──────────────────────────────────────────────────────────────────
+function v(id) {
+  const el = document.getElementById(id);
+  return el ? el.value.trim() : '';
+}
+
+function esc(str) {
+  if (!str) return '';
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
+function statusBadge(status) {
+  const map = {
+    pending:   'sb-pending',
+    confirmed: 'sb-confirmed',
+    completed: 'sb-completed',
+    cancelled: 'sb-cancelled',
+  };
+  const cls = map[status] || 'sb-pending';
+  return `<span class="status-badge ${cls}">${status}</span>`;
+}
+
+// ── INIT ─────────────────────────────────────────────────────────────────────
+document.addEventListener('DOMContentLoaded', () => {
+  // Load reviews on home page (already active)
+  loadReviews();
+
+  // Auto-login if token stored and on admin page
+  if (window.location.hash === '#admin') showPage('admin');
+
+  // Check if stored token is still valid
+  if (state.adminToken) {
+    API.get('/auth/me').catch(() => {
+      state.adminToken = '';
+      localStorage.removeItem('4smile_token');
+    });
+  }
+});
+
+</script>
+</body>
+</html>
